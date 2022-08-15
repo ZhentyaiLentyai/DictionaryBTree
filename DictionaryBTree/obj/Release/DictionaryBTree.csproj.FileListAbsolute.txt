@@ -1,0 +1,8 @@
+D:\C#\ProjectDictionary\DictionaryBTree\bin\Release\DictionaryBTree.exe.config
+D:\C#\ProjectDictionary\DictionaryBTree\bin\Release\DictionaryBTree.exe
+D:\C#\ProjectDictionary\DictionaryBTree\bin\Release\DictionaryBTree.pdb
+D:\C#\ProjectDictionary\DictionaryBTree\obj\Release\DictionaryBTree.csproj.AssemblyReference.cache
+D:\C#\ProjectDictionary\DictionaryBTree\obj\Release\DictionaryBTree.csproj.SuggestedBindingRedirects.cache
+D:\C#\ProjectDictionary\DictionaryBTree\obj\Release\DictionaryBTree.csproj.CoreCompileInputs.cache
+D:\C#\ProjectDictionary\DictionaryBTree\obj\Release\DictionaryBTree.exe
+D:\C#\ProjectDictionary\DictionaryBTree\obj\Release\DictionaryBTree.pdb
