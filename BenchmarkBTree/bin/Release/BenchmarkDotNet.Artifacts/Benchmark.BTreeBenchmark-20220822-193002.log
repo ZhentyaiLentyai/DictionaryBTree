@@ -1,0 +1,84 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 3 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+BuildScript: D:\C#\ProjectDictionary\BenchmarkBTree\bin\Release\1ac7b53a-2f77-465f-aeaa-afda06f30b58.bat
+// ***** Done, took 00:00:02 (2.34 sec)   *****
+// Found 3 benchmarks:
+//   BTreeBenchmark.TestSearch100: DefaultJob
+//   BTreeBenchmark.TestSearch1000: DefaultJob
+//   BTreeBenchmark.TestSearch10000: DefaultJob
+
+// **************************
+// Benchmark: BTreeBenchmark.TestSearch100: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: D:\C#\ProjectDictionary\BenchmarkBTree\bin\Release\1ac7b53a-2f77-465f-aeaa-afda06f30b58.exe --benchmarkName "Benchmark.BTreeBenchmark.TestSearch100" --job "Default" --benchmarkId 0 in 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.8 (4.8.4515.0), X86 LegacyJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 286800.00 ns, 286.8000 us/op
+WorkloadJitting  1: 1 op, 3594800.00 ns, 3.5948 ms/op
+
+OverheadJitting  2: 16 op, 141000.00 ns, 8.8125 us/op
+WorkloadJitting  2: 16 op, 1160800.00 ns, 72.5500 us/op
+
+WorkloadPilot    1: 16 op, 1085000.00 ns, 67.8125 us/op
+WorkloadPilot    2: 32 op, 3949100.00 ns, 123.4094 us/op
+WorkloadPilot    3: 64 op, 6365400.00 ns, 99.4594 us/op
+WorkloadPilot    4: 128 op, 9242800.00 ns, 72.2094 us/op
+WorkloadPilot    5: 256 op, 15810000.00 ns, 61.7578 us/op
+WorkloadPilot    6: 512 op, 33861400.00 ns, 66.1355 us/op
+WorkloadPilot    7: 1024 op, 75993900.00 ns, 74.2128 us/op
+WorkloadPilot    8: 2048 op, 155485700.00 ns, 75.9208 us/op
+WorkloadPilot    9: 4096 op, 283754600.00 ns, 69.2760 us/op
+WorkloadPilot   10: 8192 op, 532879000.00 ns, 65.0487 us/op
+
+OverheadWarmup   1: 8192 op, 17200.00 ns, 2.0996 ns/op
+OverheadWarmup   2: 8192 op, 14100.00 ns, 1.7212 ns/op
+OverheadWarmup   3: 8192 op, 13700.00 ns, 1.6724 ns/op
+OverheadWarmup   4: 8192 op, 13800.00 ns, 1.6846 ns/op
+OverheadWarmup   5: 8192 op, 13900.00 ns, 1.6968 ns/op
+OverheadWarmup   6: 8192 op, 24400.00 ns, 2.9785 ns/op
+OverheadWarmup   7: 8192 op, 14000.00 ns, 1.7090 ns/op
+OverheadWarmup   8: 8192 op, 13800.00 ns, 1.6846 ns/op
+OverheadWarmup   9: 8192 op, 25600.00 ns, 3.1250 ns/op
+OverheadWarmup  10: 8192 op, 25800.00 ns, 3.1494 ns/op
+
+OverheadActual   1: 8192 op, 23700.00 ns, 2.8931 ns/op
+OverheadActual   2: 8192 op, 19900.00 ns, 2.4292 ns/op
+OverheadActual   3: 8192 op, 20900.00 ns, 2.5513 ns/op
+OverheadActual   4: 8192 op, 13900.00 ns, 1.6968 ns/op
+OverheadActual   5: 8192 op, 23700.00 ns, 2.8931 ns/op
+OverheadActual   6: 8192 op, 20100.00 ns, 2.4536 ns/op
+OverheadActual   7: 8192 op, 20600.00 ns, 2.5146 ns/op
+OverheadActual   8: 8192 op, 20200.00 ns, 2.4658 ns/op
+OverheadActual   9: 8192 op, 20600.00 ns, 2.5146 ns/op
+OverheadActual  10: 8192 op, 13800.00 ns, 1.6846 ns/op
+OverheadActual  11: 8192 op, 13900.00 ns, 1.6968 ns/op
+OverheadActual  12: 8192 op, 13900.00 ns, 1.6968 ns/op
+OverheadActual  13: 8192 op, 14000.00 ns, 1.7090 ns/op
+OverheadActual  14: 8192 op, 17500.00 ns, 2.1362 ns/op
+OverheadActual  15: 8192 op, 14100.00 ns, 1.7212 ns/op
+OverheadActual  16: 8192 op, 14000.00 ns, 1.7090 ns/op
+OverheadActual  17: 8192 op, 14100.00 ns, 1.7212 ns/op
+OverheadActual  18: 8192 op, 21400.00 ns, 2.6123 ns/op
+OverheadActual  19: 8192 op, 21400.00 ns, 2.6123 ns/op
+OverheadActual  20: 8192 op, 23600.00 ns, 2.8809 ns/op
+
+WorkloadWarmup   1: 8192 op, 533400600.00 ns, 65.1124 us/op
+WorkloadWarmup   2: 8192 op, 557601900.00 ns, 68.0666 us/op
+WorkloadWarmup   3: 8192 op, 551827000.00 ns, 67.3617 us/op
+WorkloadWarmup   4: 8192 op, 545369200.00 ns, 66.5734 us/op
+WorkloadWarmup   5: 8192 op, 547186800.00 ns, 66.7953 us/op
+WorkloadWarmup   6: 8192 op, 555663400.00 ns, 67.8300 us/op
+WorkloadWarmup   7: 8192 op, 528360100.00 ns, 64.4971 us/op
+
+// BeforeActualRun
+WorkloadActual   1: 8192 op, 536034600.00 ns, 65.4339 us/op
+WorkloadActual   2: 8192 op, 580666600.00 ns, 70.8822 us/op
+WorkloadActual   3: 8

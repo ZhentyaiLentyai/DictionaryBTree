@@ -6,16 +6,21 @@ namespace DictionaryBTree
     [TestClass]
     public class BTreeTests
     {
+
         [TestMethod]
         public void SearchValues()
         {
             // arrange
-            BTreeNode s = new BTreeNode(2, true);
+            DataBase data = new DataBase();
+            var tree = new BTree(2);
+
+            tree = data.LoadDataBase(100);
+            
             int key = 30;
             string value = "!30!";
-            BTree v = new BTree(2);
+
             // act
-            string rezult = s.Search(key);
+            string rezult = tree.Search(key);
 
             // assert
             Assert.AreEqual(value, rezult);
@@ -25,12 +30,16 @@ namespace DictionaryBTree
         public void SearchValuesError()
         {
             // arrange
-            BTreeNode s = new BTreeNode(2, true);
+            DataBase data = new DataBase();
+            var tree = new BTree(2);
+
+            tree = data.LoadDataBase(100);
+
             int key = 300;
             string value = null;
 
             // act
-            string rezult = s.Search(key);
+            string rezult = tree.Search(key);
 
             // assert
             Assert.AreEqual(value, rezult);

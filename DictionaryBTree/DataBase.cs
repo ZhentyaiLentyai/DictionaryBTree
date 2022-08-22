@@ -17,25 +17,25 @@ namespace DictionaryBTree
 
             Random random = new Random();
 
-            for (int i = 0; i < n; i++)
+            for (int counter = 0; counter < n; counter++)
             {
                 int key = random.Next(1, n + 1);
                 if (keys.Contains(key))
                 {
-                    i--;
+                    counter--;
                     continue;
                 }
-                keys[i] = key;
-                values[i] = "!" + key.ToString() + "!";
+                keys[counter] = key;
+                values[counter] = "!" + key.ToString() + "!";
             }
             return LoadDataInBTree(tree, keys, values, n);
         }
 
         public static BTree LoadDataInBTree(BTree tree, int[] keys, string[] values, int n)
         {
-            for (int i = 0; i < n; i++)
+            for (int counter = 0; counter < n; counter++)
             {
-                tree.Insert(keys[i], values[i]);
+                tree.Insert(keys[counter], values[counter]);
             }
             return tree;
         }

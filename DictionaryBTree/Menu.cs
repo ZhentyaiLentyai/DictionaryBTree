@@ -18,7 +18,9 @@ namespace DictionaryBTree
                 switch (choice)
                 {
                     case "1":
-                        tree.Search();
+                        Console.Write("Enter key: ");
+                        int key = Convert.ToInt32(Console.ReadLine());
+                        tree.Search(key);
                         break;
                     case "0":
                         flag = false;

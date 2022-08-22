@@ -51,10 +51,8 @@ namespace DictionaryBTree
             }
         }
 
-        public void Search()
+        public string Search(int key)
         {
-            Console.Write("Enter key: ");
-            int key = Convert.ToInt32(Console.ReadLine());
             string values = root.Search(key);
 
             if (values != null)
@@ -65,6 +63,7 @@ namespace DictionaryBTree
             {
                 Console.WriteLine("Key does not exist");
             }
+            return values;
         }
     }
 }

@@ -11,7 +11,7 @@ namespace DictionaryBTree
         static void Main(string[] args)
         {
             int n = 100;
-            var start = new DataBase();
+            DataBase start = new DataBase();
             BTree tree = start.LoadDataBase(n);
             MainMenu.Menu(tree);
         }
